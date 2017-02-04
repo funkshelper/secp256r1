@@ -1,0 +1,48 @@
+Diffs from old "woodcoin-b" version in modern litecoin version as of 1/17
+
+bench_inv.c
+bench_sign.c
+bench_verify.c
+ecdsa.h
+ecdsa_impl.h
+eckey.h
+eckey_impl.h
+ecmult_gen.h
+ecmult_gen_impl.h
+ecmult.h
+ecmult_impl.h
+field_10x26.h
+field_10x26_impl.h
+field_5x52_asm.asm
+field_5x52_asm_impl.h
+field_5x52_asm.lo
+field_5x52_asm.o
+field_5x52.h
+field_5x52_impl.h
+field_5x52_int128_impl.h
+field_gmp.h
+field_gmp_impl.h
+field.h
+field_impl.h
+group.h
+group_impl.h                        
+java                                (ignoring)
+libsecp256k1-config.h               -- new
+libsecp256k1-config.h.in            -- new
+notes.txt
+num_gmp.h                           **
+num_gmp_impl.h                      some changes ??  
+num.h                               **
+num_impl.h                          **
+scalar_4x64.h                       **
+scalar_4x64_impl.h                  KEYS defined here
+scalar_8x32.h                       **
+scalar_8x32_impl.h                  KEYS defined here it looks like..  curve specific functions oy vey
+scalar.h                            couple new funcs, minor diffs
+scalar_impl.h                       KEYS defined here in newer version, look to be behind IF_DEF s  
+secp256k1.c                         "b32 vs "bin"- minor diffs
+stamp-h1                             (not present in old version)
+testrand.h                          **
+testrand_impl.h                     **
+tests.c                              ton of differences
+util.h                               new  macro, otherwise identical
