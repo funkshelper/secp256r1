@@ -3,7 +3,7 @@ Diffs from old "woodcoin-b" version in modern litecoin version as of 1/17
 bench_inv.c
 bench_sign.c
 bench_verify.c
-ecdsa.h
+ecdsa.h			//struct - no constants
 ecdsa_impl.h
 eckey.h
 eckey_impl.h
